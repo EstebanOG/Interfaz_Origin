@@ -1,11 +1,11 @@
-#Interfaz Gráfica en Java
+# Interfaz Gráfica en Java
 ---
 Repositorio del curso de Interfaz Gráfica en Java de la Universidad Distrital Francisco José de Caldas
-##Proyecto final
+## Proyecto final
 ---
 Interfaz página web principal Origin Fifa 21
 <https://www.origin.com/mex/en-us/store/fifa/fifa-21>
-##Integrantes
+## Integrantes
 ---
 |Nombre|Código|
 |------|------|
