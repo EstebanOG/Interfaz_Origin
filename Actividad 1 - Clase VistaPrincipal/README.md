@@ -1,12 +1,12 @@
-#Actividad 1
+# Actividad 1
 ---
-###Código
+### Código
 ---
 ![code](Images/Código.JPG)
-###Ventana principal
+### Ventana principal
 ---
 ![ventana](Images/VentanaPrincipal.JPG)
-##Integrantes
+## Integrantes
 ---
 |Nombre|Código|
 |------|------|
