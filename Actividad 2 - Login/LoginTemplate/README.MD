@@ -1,7 +1,7 @@
 # Actividad 2
 
 ## Login
-![Interfaz login origin](https://raw.githubusercontent.com/EstebanOG/Interfaz_Origin/master/Actividad2-Login/LoginTemplate/src/img/Captura.png)
+![Interfaz login origin](https://raw.githubusercontent.com/EstebanOG/Interfaz_Origin/master/Actividad%202%20-%20Login/LoginTemplate/src/img/Captura.png)
 
 ### Integrantes
 
