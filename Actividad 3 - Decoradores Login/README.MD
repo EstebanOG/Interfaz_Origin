@@ -1,8 +1,7 @@
 # Actividad 3
 
 ## Login con decoradores
-![Interfaz login origin](https://raw.githubusercontent.com/EstebanOG/Interfaz_Origin/master/Actividad%202%20-%20Login/LoginTemplate/src/img/Captura.png)
-
+![Interfaz login origin](Images/ResultadoActividad3.JPG)
 ### Integrantes
 
 | Nombre | Código  |
