@@ -40,7 +40,7 @@ public class LoginTemplate extends JFrame {
   // Declaración Objetos Gráficos
   private JPanel pDerecha, pIzquierda;
   private JLabel lTituloApp, lTituloLogin, lRemPass, lRegion,lIconLoc,lIconUser,lIconPass;
-  private JLabel lFondo;
+  private JLabel lFondo,lOrigin;
   private JTextField tNombreUsuario;
   private JPasswordField tClaveUsuario;
   private JComboBox<String> cbRegion;
@@ -55,7 +55,7 @@ public class LoginTemplate extends JFrame {
   private Font fontPrincipal, fontTitulo, fontEncabezado, fontPrincipalNegrilla;
   private Cursor cMano;
   private Border bInferiorPrincipal;
-  private ImageIcon iFondo,iCerrar,iDimAux, iUser, iPassword, iLocation, iCircleGray, iCircleOrange;
+  private ImageIcon iFondo,iCerrar,iDimAux,iOrigin ,iUser, iPassword, iLocation, iCircleGray, iCircleOrange;
   
   public LoginTemplate() {
     super("Login Usuario");
@@ -72,6 +72,7 @@ public class LoginTemplate extends JFrame {
     bInferiorPrincipal = createMatteBorder(0, 0, 3, 0, colorPrincipal);
     
     iFondo = new ImageIcon("src/assets/images/fondo.jpg");
+    iOrigin = new ImageIcon("src/assets/images/origin_banner.png");
     iCerrar = new ImageIcon("src/assets/images/cerrar.png");
     iUser = new ImageIcon("src/assets/images/user.png");
     iPassword = new ImageIcon("src/assets/images/password.png");
@@ -283,6 +284,13 @@ public class LoginTemplate extends JFrame {
     checkSi.setLocation((pDerecha.getWidth() - checkSi.getWidth()) / 2 - 15, 330);
     checkSi.setCursor(cMano);
     pDerecha.add(checkSi);
+    
+    iDimAux = new ImageIcon(iOrigin.getImage().getScaledInstance(200, 50, Image.SCALE_AREA_AVERAGING));
+    
+    lOrigin = new JLabel();
+    lOrigin.setBounds(0, 0, 200, 50);
+    lOrigin.setIcon(iDimAux);
+    pIzquierda.add(lOrigin);
     
     iDimAux = new ImageIcon(iFondo.getImage().getScaledInstance(600, 500, Image.SCALE_AREA_AVERAGING));
     
