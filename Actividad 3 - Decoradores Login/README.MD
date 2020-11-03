@@ -1,7 +1,7 @@
 # Actividad 3
 
 ## Login con decoradores
-![Interfaz login origin](Images/ResultadoActividad3_V2.PNG)
+![Interfaz login origin](Images/ResultadoActividad3_V2.png)
 ### Integrantes
 
 | Nombre | Código  |
