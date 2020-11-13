@@ -1,7 +1,8 @@
-# Actividad 3
+# Actividad 4
 
 ## Modularización y optimización de código
-![Interfaz login origin](Images/ResultadoActividad3_V2.png)
+![Interfaz login origin](Images/ResultadoActividad4_1.png)
+![Interfaz login origin](Images/ResultadoActividad4_2.png)
 ### Integrantes
 
 | Nombre | Código  |
