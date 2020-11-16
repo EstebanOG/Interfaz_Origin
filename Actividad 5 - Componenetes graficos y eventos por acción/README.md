@@ -12,7 +12,7 @@ Creación de las clases componentes dentro de los distintos paquetes:
 
 Se añade método de configuración addActionListener
 
-![Añadir método a bótones](Images/MetodoActionListener.JPG)
+![Añadir método a bótones](Images/MetodoActionListener.jpg)
 
 Método actionPerformed
 
