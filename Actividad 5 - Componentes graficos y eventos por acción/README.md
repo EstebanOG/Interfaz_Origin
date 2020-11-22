@@ -2,7 +2,7 @@
 
 ## Componentes gráficos y eventos por acción
 
-### Componenetes gráficos
+### Componentes gráficos
 
 Creación de las clases componentes dentro de los distintos paquetes:
 
