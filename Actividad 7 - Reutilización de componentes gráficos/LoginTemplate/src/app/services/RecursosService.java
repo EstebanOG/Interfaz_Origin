@@ -16,7 +16,7 @@ import javax.swing.ImageIcon;
 
 public class RecursosService {
 
-    private Color colorPrincipal, colorCeleste, colorGrisClaro,colorAzulOscuro,colorGrisClaroCuerpo,colorGrisHover, colorGrisStore;
+    private Color colorPrincipal, colorCeleste, colorGrisClaro,colorAzulOscuro,colorGrisClaroCuerpo,colorGrisHover, colorGrisStore, colorNegroTransparente;
     private Font fontPrincipal, fontPrincipalNegrilla, fontPrincipalNegrilla2,fontPrincipalNegrillaPequena ,fontTitulo, fontEncabezado, fontSimbolos;
     private Cursor cMano;
     private Border bInferiorPrincipal,bLateralNaranja,bGris;
@@ -41,6 +41,7 @@ public class RecursosService {
         colorGrisHover = new Color(111,114,123);
         colorAzulOscuro = new Color(30,38,44);
         colorGrisStore = new Color(237,241,242);
+        colorNegroTransparente = new Color(43,53,65,220);
     }
 
     private void crearFuentes() {
@@ -108,6 +109,10 @@ public class RecursosService {
         return colorGrisStore;
     }
     
+    public Color getColorNegroTransparente(){
+        return colorNegroTransparente;
+    }
+        
     public Font getFontPrincipal() {
         return fontPrincipal;
     }

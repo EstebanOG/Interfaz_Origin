@@ -4,12 +4,9 @@
 ### Actualización de imágenes en assets
 
 Se actualiza la carpeta **assets/images** agregando nuevas imágenes.
-![Actualizacion de imágenes](Images/actualizacionImagenesAssets.jpg)
+![Actualizacion de imágenes](Images/actualizacionImagenesAssets.JPG)
 
-### Resultado con navegación de usuario
-![Vista Principal](Images//ResultadoActividad6_2.png)
-
-
+### Construcción base del componente Store
 ### Integrantes
 
 | Nombre | Código  |
