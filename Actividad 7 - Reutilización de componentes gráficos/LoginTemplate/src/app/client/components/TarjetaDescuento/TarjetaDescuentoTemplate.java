@@ -12,6 +12,7 @@ import java.awt.Image;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
 
 /**
  *
@@ -34,19 +35,16 @@ public class TarjetaDescuentoTemplate extends JPanel{
         sObjGraficos = ObjGraficosService.getService();
         sRecursos = RecursosService.getService();
         
-        iDimAux = new ImageIcon(
-                iImagen.getImage()
-                .getScaledInstance(370,210, Image.SCALE_AREA_AVERAGING)
-        );
+        
         
         this.lTitulo = sObjGraficos.construirJLabel(
                 titulo,
                 0, 120, 370, 30,
                 null, null,
-                sRecursos.getFontTitulo(),
+                sRecursos.getFontPrincipalNegrilla2(),
                 sRecursos.getColorNegroTransparente(),
                 sRecursos.getColorPrincipal(),
-                null,
+                new EmptyBorder(0,10,0,0),//top,left,bottom,right,
                 "l"
         );
         this.add(lTitulo);
@@ -58,11 +56,16 @@ public class TarjetaDescuentoTemplate extends JPanel{
                 sRecursos.getFontPrincipal(), 
                 sRecursos.getColorNegroTransparente(), 
                 Color.WHITE, 
-                null,
+                new EmptyBorder(0,10,0,0),//top,left,bottom,right,
                 "c"
                 );
         this.add(lParrafo);
-  
+        
+        iDimAux = new ImageIcon(
+                iImagen.getImage()
+                .getScaledInstance(370,210, Image.SCALE_AREA_AVERAGING)
+        );
+        
         lImagen = sObjGraficos.construirJLabel(
             null,
                 0, 0, 370, 210,

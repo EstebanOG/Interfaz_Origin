@@ -64,7 +64,7 @@ public class OnSaleTemplate extends JPanel {
                 "<html><div>" + precio + "</div></html>",
                 0, 167, 136, 33,
                 null, null,
-                sRecursos.getFontPrincipal(),
+                sRecursos.getFontPrincipalNegrilla(),
                 null,
                 sRecursos.getColorPrincipal(),
                 null,
