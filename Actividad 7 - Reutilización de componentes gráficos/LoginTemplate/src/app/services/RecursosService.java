@@ -19,7 +19,7 @@ public class RecursosService {
     private Color colorPrincipal, colorCeleste, colorGrisClaro,colorAzulOscuro,colorGrisClaroCuerpo,colorGrisHover, colorGrisStore, colorNegroTransparente;
     private Font fontPrincipal, fontPrincipalNegrilla, fontPrincipalNegrilla2,fontPrincipalNegrillaPequena ,fontTitulo, fontEncabezado, fontSimbolos;
     private Cursor cMano;
-    private Border bInferiorPrincipal,bLateralNaranja,bGris;
+    private Border bInferiorPrincipal,bLateralNaranja,bGris,bGrisCompleto;
     private ImageIcon iCerrar, iMinimizar;
 
     static private RecursosService servicio;
@@ -67,6 +67,7 @@ public class RecursosService {
         bInferiorPrincipal = createMatteBorder(0, 0, 3, 0, colorPrincipal);
         bLateralNaranja = createMatteBorder(0, 5, 0, 0, colorPrincipal);
         bGris = createMatteBorder(1, 0, 1, 0, colorGrisClaroCuerpo);
+        bGrisCompleto = createMatteBorder(1, 1, 1, 1, colorGrisClaroCuerpo);
     }
 
     private void generarFuentes() {
@@ -155,6 +156,10 @@ public class RecursosService {
     
     public Border getBGris() {
         return bGris;
+    }
+    
+    public Border getBGrisCompleto() {
+        return bGrisCompleto;
     }
 
     public ImageIcon getICerrar() {

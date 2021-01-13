@@ -53,7 +53,7 @@ public class TarjetaDescuentoTemplate extends JPanel{
         
         lParrafo = sObjGraficos.construirJLabel(
                 "<html><div>" + parrafo + "</div></html>", 
-                0, 120, 370, 120, 
+                0, 150, 370, 60,
                 null, null,
                 sRecursos.getFontPrincipal(), 
                 sRecursos.getColorNegroTransparente(), 
@@ -62,7 +62,7 @@ public class TarjetaDescuentoTemplate extends JPanel{
                 "c"
                 );
         this.add(lParrafo);
-        
+  
         lImagen = sObjGraficos.construirJLabel(
             null,
                 0, 0, 370, 210,
