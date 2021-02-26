@@ -1,0 +1,6 @@
+EstebanOG,123456,South America
+CrissUD,123456,North America
+SantiagoDP,987654,Europe
+SandraMCC,101232,Asia
+CarlaFG,456123,Africa
+Daniela987,111222,Europe
