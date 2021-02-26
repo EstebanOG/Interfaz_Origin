@@ -19,7 +19,6 @@ import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 import javax.swing.border.Border;
 
-/** @author Cristian Felipe Patiño Cáceres Github: CrissUD*/
 
 public class ObjGraficosService {
   private JPanel panel;

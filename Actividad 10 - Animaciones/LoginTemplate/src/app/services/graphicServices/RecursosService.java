@@ -13,13 +13,14 @@ import javax.swing.border.Border;
 import javax.swing.BorderFactory;
 import static javax.swing.BorderFactory.createMatteBorder;
 import javax.swing.ImageIcon;
+import javax.swing.border.EmptyBorder;
 
 public class RecursosService {
 
     private Color colorPrincipal, colorPrincipalOscuro, colorPrincipalGrisClaro, colorCeleste, colorGrisClaro, colorAzulOscuro, colorGrisClaroCuerpo, colorGrisHover, colorGrisStore, colorNegroTransparente;
     private Font fontPrincipal, fontPrincipalNegrilla, fontPrincipalNegrilla2, fontPrincipalNegrillaPequena, fontTitulo, fontEncabezado, fontSimbolos;
     private Cursor cMano;
-    private Border bInferiorPrincipal, bLateralNaranja, bGris, bGrisCompleto, bPrincipalCompleto;
+    private Border bInferiorPrincipal,bLateralVacio , bLateralNaranja, bGris, bGrisCompleto, bPrincipalCompleto;
     private ImageIcon iCerrar, iMinimizar;
 
     static private RecursosService servicio;
@@ -68,6 +69,7 @@ public class RecursosService {
     private void crearBordes() {
         bInferiorPrincipal = createMatteBorder(0, 0, 3, 0, colorPrincipal);
         bLateralNaranja = createMatteBorder(0, 5, 0, 0, colorPrincipal);
+        bLateralVacio = new EmptyBorder(0, 5, 0, 0);
         bGris = createMatteBorder(1, 0, 1, 0, colorGrisClaroCuerpo);
         bGrisCompleto = createMatteBorder(1, 1, 1, 1, colorGrisClaroCuerpo);
         bPrincipalCompleto = createMatteBorder(1, 1, 1, 1, colorPrincipal);
@@ -163,6 +165,9 @@ public class RecursosService {
 
     public Border getBLateralNaranja() {
         return bLateralNaranja;
+    }
+    public Border getBLateralVacio() {
+        return bLateralVacio;
     }
 
     public Border getBGris() {

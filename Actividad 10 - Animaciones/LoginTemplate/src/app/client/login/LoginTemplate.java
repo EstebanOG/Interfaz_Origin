@@ -146,7 +146,7 @@ public class LoginTemplate extends JFrame {
                 null, sRecursos.getFontEncabezado(),
                 Color.WHITE,
                 sRecursos.getColorGrisClaro(),
-                sRecursos.getBInferiorPrincipal(),
+                null,
                 "c",
                 true
         );
@@ -189,45 +189,45 @@ public class LoginTemplate extends JFrame {
 
         iDimAux = new ImageIcon(iCircleOrange.getImage().getScaledInstance(20, 20, Image.SCALE_AREA_AVERAGING));
 
-        // BOTÓN OPCIÓN 1-----------------------------------------------------------------------------
-        bOpcion1 = sObjGraficos.construirJButton(
-                null,
-                10, 220, 20, 20,
-                sRecursos.getCMano(),
-                iDimAux,
-                null, null, null, null,
-                "c",
-                false
-        );
-        bOpcion1.addActionListener(loginComponent);
-        pIzquierda.add(bOpcion1);
-
-        iDimAux = new ImageIcon(iCircleGray.getImage().getScaledInstance(20, 20, Image.SCALE_AREA_AVERAGING));
-        // BOTÓN OPCIÓN 2-----------------------------------------------------------------------------
-        bOpcion2 = sObjGraficos.construirJButton(
-                null,
-                10, 250, 20, 20,
-                sRecursos.getCMano(),
-                iDimAux,
-                null, null, null, null,
-                "c",
-                false
-        );
-        bOpcion2.addActionListener(loginComponent);
-        pIzquierda.add(bOpcion2);
-
-        // BOTÓN OPCIÓN 3-----------------------------------------------------------------------------
-        bOpcion3 = sObjGraficos.construirJButton(
-                null,
-                10, 280, 20, 20,
-                sRecursos.getCMano(),
-                iDimAux,
-                null, null, null, null,
-                "c",
-                false
-        );
-        bOpcion3.addActionListener(loginComponent);
-        pIzquierda.add(bOpcion3);
+//        // BOTÓN OPCIÓN 1-----------------------------------------------------------------------------
+//        bOpcion1 = sObjGraficos.construirJButton(
+//                null,
+//                10, 220, 20, 20,
+//                sRecursos.getCMano(),
+//                iDimAux,
+//                null, null, null, null,
+//                "c",
+//                false
+//        );
+//        bOpcion1.addActionListener(loginComponent);
+//        pIzquierda.add(bOpcion1);
+//
+//        iDimAux = new ImageIcon(iCircleGray.getImage().getScaledInstance(20, 20, Image.SCALE_AREA_AVERAGING));
+//        // BOTÓN OPCIÓN 2-----------------------------------------------------------------------------
+//        bOpcion2 = sObjGraficos.construirJButton(
+//                null,
+//                10, 250, 20, 20,
+//                sRecursos.getCMano(),
+//                iDimAux,
+//                null, null, null, null,
+//                "c",
+//                false
+//        );
+//        bOpcion2.addActionListener(loginComponent);
+//        pIzquierda.add(bOpcion2);
+//
+//        // BOTÓN OPCIÓN 3-----------------------------------------------------------------------------
+//        bOpcion3 = sObjGraficos.construirJButton(
+//                null,
+//                10, 280, 20, 20,
+//                sRecursos.getCMano(),
+//                iDimAux,
+//                null, null, null, null,
+//                "c",
+//                false
+//        );
+//        bOpcion3.addActionListener(loginComponent);
+//        pIzquierda.add(bOpcion3);
     }
 
     public void crearJLabels() {

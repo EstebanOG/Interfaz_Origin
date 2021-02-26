@@ -13,7 +13,7 @@ import javax.swing.JTextField;
 
 public class LoginComponent extends MouseAdapter implements ActionListener {
 
-    private JButton boton;
+    private JButton boton,botonSec;
     private JTextField text;
     private LoginTemplate loginTemplate;
     private VistaPrincipalComponent vistaPrincipal;
@@ -38,23 +38,35 @@ public class LoginComponent extends MouseAdapter implements ActionListener {
             //entrar();
         }
         if (e.getSource().equals(loginTemplate.getBRegistrarse())) {
+            boton = ((JButton) e.getSource());
+            botonSec = loginTemplate.getBSignInTemplate();
+            if(boton.getBorder() == null){
+                boton.setBorder(loginTemplate.getRecursosService().getBInferiorPrincipal());
+                botonSec.setBorder(null);
+            }
             JOptionPane.showMessageDialog(null, "Boton pestaña Registrarse", "Advertencia", 1);
         }
         if (e.getSource().equals(loginTemplate.getBSignInTemplate())) {
-            JOptionPane.showMessageDialog(null, "Boton pestaña Ingresar", "Advertencia", 1);
+            boton = ((JButton) e.getSource());
+            botonSec = loginTemplate.getBRegistrarse();
+            if(boton.getBorder() == null){
+                boton.setBorder(loginTemplate.getRecursosService().getBInferiorPrincipal());
+                botonSec.setBorder(null);
+            }
+            //JOptionPane.showMessageDialog(null, "Boton pestaña Ingresar", "Advertencia", 1);
         }
         if (e.getSource().equals(loginTemplate.getBCerrar())) {
             System.exit(0);
         }
-        if (e.getSource().equals(loginTemplate.getBOpcion1())) {
-            JOptionPane.showMessageDialog(null, "Boton Opcion1", "Advertencia", 1);
-        }
-        if (e.getSource().equals(loginTemplate.getBOpcion2())) {
-            JOptionPane.showMessageDialog(null, "Boton Opcion2", "Advertencia", 1);
-        }
-        if (e.getSource().equals(loginTemplate.getBOpcion3())) {
-            JOptionPane.showMessageDialog(null, "Boton Opcion3", "Advertencia", 1);
-        }
+//        if (e.getSource().equals(loginTemplate.getBOpcion1())) {
+//            JOptionPane.showMessageDialog(null, "Boton Opcion1", "Advertencia", 1);
+//        }
+//        if (e.getSource().equals(loginTemplate.getBOpcion2())) {
+//            JOptionPane.showMessageDialog(null, "Boton Opcion2", "Advertencia", 1);
+//        }
+//        if (e.getSource().equals(loginTemplate.getBOpcion3())) {
+//            JOptionPane.showMessageDialog(null, "Boton Opcion3", "Advertencia", 1);
+//        }
 
     }
 
@@ -101,19 +113,6 @@ public class LoginComponent extends MouseAdapter implements ActionListener {
             JOptionPane.showMessageDialog(null, "No puede dejar un campo vacio", "Advertencia", 2);
         }
 
-//        String check = "No";
-//        if (loginTemplate.getCheckSi().isSelected()) {
-//            check = "Yes";
-//        }
-//        JOptionPane.showMessageDialog(
-//                null,
-//                "User: " + nombreUsuario + "\n"
-//                + "Password: " + claveUsuario + "\n"
-//                + "Region: " + regionUsuario + "\n"
-//                + "Remember me: " + check + "\n",
-//                "Advertencia",
-//                1
-//        );
     }
 
     public void entrar() {
