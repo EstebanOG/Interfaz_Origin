@@ -1,0 +1,5 @@
+Fifa 21 Champions Edition,US$ 29.99,src/assets/images/imagenesSeccionOnSale/FIFA21.jpg
+STAR WARS: Squadrons,US$ 23.99,src/assets/images/imagenesSeccionOnSale/starWars-Squadrons.jpg
+The Sims 4,US$ 4.99,src/assets/images/imagenesSeccionOnSale/losSims4.jpg
+The Sims 4 Snowy Escape,US$ 19.99,src/assets/images/imagenesSeccionOnSale/losSims4-SnowyEscape.jpg
+Need for Speed Hot Pursuit Remastered,US$ 14.99,src/assets/images/imagenesSeccionOnSale/needForSpeed-HotPursuitRemastered.jpg
