@@ -2,4 +2,17 @@ Fifa 21 Champions Edition,US$ 29.99,src/assets/images/imagenesSeccionOnSale/FIFA
 STAR WARS: Squadrons,US$ 23.99,src/assets/images/imagenesSeccionOnSale/starWars-Squadrons.jpg
 The Sims 4,US$ 4.99,src/assets/images/imagenesSeccionOnSale/losSims4.jpg
 The Sims 4 Snowy Escape,US$ 19.99,src/assets/images/imagenesSeccionOnSale/losSims4-SnowyEscape.jpg
+Madden NFL 21,US$ 239.999,src/assets/images/imagenesSeccionOnSale/Madden21.jpg
 Need for Speed Hot Pursuit Remastered,US$ 14.99,src/assets/images/imagenesSeccionOnSale/needForSpeed-HotPursuitRemastered.jpg
+Battlefield,US$ 239.999,src/assets/images/imagenesSeccionOnSale/Battlefield_V.jpg
+STAR WARS Jedi: Fallen Order,US$ 159.999,src/assets/images/imagenesSeccionOnSale/StarWars_Jedi.jpg
+Mass Effect Andromeda,US$ 79.999,src/assets/images/imagenesSeccionOnSale/mass_effect.jpg
+Fifa 21 Champions Edition,US$ 29.99,src/assets/images/imagenesSeccionOnSale/FIFA21.jpg
+STAR WARS: Squadrons,US$ 23.99,src/assets/images/imagenesSeccionOnSale/starWars-Squadrons.jpg
+The Sims 4,US$ 4.99,src/assets/images/imagenesSeccionOnSale/losSims4.jpg
+The Sims 4 Snowy Escape,US$ 19.99,src/assets/images/imagenesSeccionOnSale/losSims4-SnowyEscape.jpg
+Madden NFL 21,US$ 239.999,src/assets/images/imagenesSeccionOnSale/Madden21.jpg
+Need for Speed Hot Pursuit Remastered,US$ 14.99,src/assets/images/imagenesSeccionOnSale/needForSpeed-HotPursuitRemastered.jpg
+Battlefield,US$ 239.999,src/assets/images/imagenesSeccionOnSale/Battlefield_V.jpg
+STAR WARS Jedi: Fallen Order,US$ 159.999,src/assets/images/imagenesSeccionOnSale/StarWars_Jedi.jpg
+Mass Effect Andromeda,US$ 79.999,src/assets/images/imagenesSeccionOnSale/mass_effect.jpg

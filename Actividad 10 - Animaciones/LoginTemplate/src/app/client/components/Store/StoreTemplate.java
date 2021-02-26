@@ -149,7 +149,7 @@ public class StoreTemplate extends JPanel {
         Juego accion = storeComponent.obtenerAccion(numeroAccion);
         while (accion != null) {
             OnSaleTemplate pAccion = new OnSaleComponent(accion).getOnSaleTemplate();
-            pAccion.setLocation(15 + ((pAccion.getWidth() + 15) * (numeroAccion % 5)), 35);
+            pAccion.setLocation(15 + ((pAccion.getWidth() + 15) * (numeroAccion % 15)), 35);
             this.pOnSale.add(pAccion);
             numeroAccion++;
             accion = storeComponent.obtenerAccion(numeroAccion);
